@@ -1,0 +1,20 @@
+name: "Renovate Bot"
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - ".github/renovate.yaml"
+      - ".github/renovate.json"
+
+jobs:
+  renovate_runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Self-hosted Renovate
+        uses: renovatebot/github-action@v39.0.1
+        env:
+          LOG_LEVEL: debug
+        with:
+          configurationFile: .github/renovate.json
+          token: ${{ secrets.SDK_REPO_PUSH_TOKEN }}
