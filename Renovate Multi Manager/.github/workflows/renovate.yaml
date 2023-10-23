@@ -17,4 +17,3 @@ jobs:
           LOG_LEVEL: debug
         with:
           configurationFile: .github/renovate.json
-          token: ${{ secrets.SDK_REPO_PUSH_TOKEN }}
