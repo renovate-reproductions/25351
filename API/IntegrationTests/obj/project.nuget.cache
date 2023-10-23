@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "9Zc6aIqeufwXHrkof6j3ikTW0gQd00GsGHRB0IOTKkwIsX8C59j/q1656rN5X8eGPF6pAfEf5hah70kXpbJpBg==",
+  "success": true,
+  "projectFilePath": "/Users/jpgeorge/Development/janpieterz/renovate-manager-sample/API/IntegrationTests/IntegrationTests.csproj",
+  "expectedPackageFiles": [
+    "/Users/jpgeorge/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/microsoft.codecoverage/17.4.0/microsoft.codecoverage.17.4.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/microsoft.net.test.sdk/17.4.0/microsoft.net.test.sdk.17.4.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/microsoft.testplatform.objectmodel/17.4.0/microsoft.testplatform.objectmodel.17.4.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/microsoft.testplatform.testhost/17.4.0/microsoft.testplatform.testhost.17.4.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/xunit/2.4.0/xunit.2.4.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/xunit.abstractions/2.0.2/xunit.abstractions.2.0.2.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/xunit.analyzers/0.10.0/xunit.analyzers.0.10.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/xunit.assert/2.4.0/xunit.assert.2.4.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/xunit.core/2.4.0/xunit.core.2.4.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/xunit.extensibility.core/2.4.0/xunit.extensibility.core.2.4.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/xunit.extensibility.execution/2.4.0/xunit.extensibility.execution.2.4.0.nupkg.sha512",
+    "/Users/jpgeorge/.nuget/packages/xunit.runner.visualstudio/2.4.0/xunit.runner.visualstudio.2.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
