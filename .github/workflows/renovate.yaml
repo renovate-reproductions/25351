@@ -1,6 +1,9 @@
 name: "Renovate Bot"
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
   pull_request:
     paths:
       - ".github/workflows/renovate.yaml"
