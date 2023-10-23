@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   pull_request:
     paths:
-      - ".github/renovate.yaml"
+      - ".github/workflows/renovate.yaml"
       - ".github/renovate.json"
 
 jobs:
