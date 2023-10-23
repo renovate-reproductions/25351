@@ -10,8 +10,7 @@
   "repositories": ["janpieterz/renovate-manager-sample"],
   "packageRules": [
     {
-      "groupName": "{{manager}}",
-      "groupSlug": "{{manager}}"
+      "groupName": "{{manager}}"
     }
   ],
   "additionalBranchPrefix": "{{parentDir}}-",
