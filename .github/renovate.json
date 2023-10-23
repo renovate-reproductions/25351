@@ -10,7 +10,7 @@
   "repositories": ["janpieterz/renovate-manager-sample"],
   "packageRules": [
     {
-      "matchManagers": ["*"],
+      "excludePackageNames": ["random-to-avoid-config-error"],
       "groupName": "{{manager}}"
     }
   ],
