@@ -3,6 +3,8 @@
   "extends": ["config:recommended"],
   "platform": "github",
   "repositories": ["janpieterz/renovate-manager-sample"],
+  "separateMajorMinor": false,
+  "gitAuthor": "Renovate Bot <renovate@example.com>",
   "packageRules": [
     {
       "excludePackageNames": ["random-to-avoid-config-error"],
