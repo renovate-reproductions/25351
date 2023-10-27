@@ -1,11 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": ["config:recommended", "group:all"],
   "separateMajorMinor": false,
-  "packageRules": [
-    {
-      "excludePackageNames": ["random-to-avoid-config-error"],
-      "groupName": "{{manager}}"
-    }
-  ]
+  "additionalBranchPrefix": "{{manager}}-"
 }
