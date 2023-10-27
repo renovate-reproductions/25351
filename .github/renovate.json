@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
+  "ignorePresets": ["group:monorepo", "group:recommended"],
   "separateMajorMinor": false,
   "additionalBranchPrefix": "{{manager}}-",
   "groupName": "all {{manager}} dependencies",
