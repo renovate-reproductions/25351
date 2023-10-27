@@ -16,18 +16,18 @@
     "reactstrap": "^9.1.9",
     "rimraf": "^5.0.0",
     "web-vitals": "^3.3.1",
-    "workbox-background-sync": "^6.5.4",
-    "workbox-broadcast-update": "^6.5.4",
-    "workbox-cacheable-response": "^6.5.4",
-    "workbox-core": "^6.5.4",
-    "workbox-expiration": "^6.5.4",
-    "workbox-google-analytics": "^6.5.4",
-    "workbox-navigation-preload": "^6.5.4",
-    "workbox-precaching": "^6.5.4",
-    "workbox-range-requests": "^6.5.4",
-    "workbox-routing": "^6.5.4",
-    "workbox-strategies": "^6.5.4",
-    "workbox-streams": "^6.5.4"
+    "workbox-background-sync": "^7.0.0",
+    "workbox-broadcast-update": "^7.0.0",
+    "workbox-cacheable-response": "^7.0.0",
+    "workbox-core": "^7.0.0",
+    "workbox-expiration": "^7.0.0",
+    "workbox-google-analytics": "^7.0.0",
+    "workbox-navigation-preload": "^7.0.0",
+    "workbox-precaching": "^7.0.0",
+    "workbox-range-requests": "^7.0.0",
+    "workbox-routing": "^7.0.0",
+    "workbox-strategies": "^7.0.0",
+    "workbox-streams": "^7.0.0"
   },
   "devDependencies": {
     "ajv": "^8.12.0",
@@ -39,12 +39,12 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "nan": "^2.17.0",
-    "typescript": "^4.9.5"
+    "typescript": "^5.0.0"
   },
   "overrides": {
-    "autoprefixer": "10.4.5",
+    "autoprefixer": "10.4.16",
     "nth-check": "2.1.1",
-    "webpack": "5.81.0"
+    "webpack": "5.89.0"
   },
   "scripts": {
     "prestart": "node aspnetcore-https && node aspnetcore-react",
